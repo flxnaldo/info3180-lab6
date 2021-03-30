@@ -2,6 +2,22 @@ body {
     padding-top: 5rem;
 }
 
+/* .news > ul {
+    list-style-position: inside;
+} */
+
+.title_{
+    border-top-style: solid;
+    border-top-color: rgb(93, 211, 168);
+    border-top-width: thick;
+}
+
+.erri_ {
+    /* margin-top: 50px; */
+    box-shadow: 0 0 3px rgb(110, 109, 109);
+    /* padding:0 5px 0 5px; */
+}
+
 footer  {
     padding-top: 20px;
 }
