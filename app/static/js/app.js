@@ -106,7 +106,7 @@ const NewsList = app.component('news-list', {
     let self = this;
     fetch('https://newsapi.org/v2/top-headlines?country=us', {
       headers: {
-        'Authorization': 'Bearer d8b8f71af8d844ec84e6369a00247a4c'
+        'Authorization': 'Bearer <api-token>'
       }
     }).then(function(response){
       return response.json();
@@ -126,7 +126,7 @@ const NewsList = app.component('news-list', {
       let self = this;
       fetch('https://newsapi.org/v2/everything?q=' + self.searchTerm + '&language=en', {
               headers: {
-                'Authorization': 'Bearer d8b8f71af8d844ec84e6369a00247a4c'
+                'Authorization': 'Bearer <api-token>'
               }
             }).then(function(response) {
               return response.json();
